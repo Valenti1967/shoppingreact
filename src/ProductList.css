@@ -81,6 +81,12 @@ body {
     z-index: 1;
 }
 
+.category-title{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .product-title {
     font-weight: bold;
     margin-bottom: 10px;
@@ -164,6 +170,7 @@ body {
     color: white;
     display: flex;
 }
+
 .cart_quantity_count{
     margin-top: 16px;
     /* background-color: red; */
@@ -178,6 +185,7 @@ body {
    justify-content: center;
     /* background-color: yellow; */
 }
+
 .plant_heading{
     width: 400px;
     text-align: center;
@@ -209,6 +217,11 @@ body {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+  }
+
+  .btn-disabled {
+    opacity: 0.5; /* Reduce opacity to visually indicate disabled state */
+    cursor: not-allowed; /* Change cursor to indicate that the button is not clickable */
   }
   
   .product-button:hover {
